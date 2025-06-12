@@ -1,0 +1,140 @@
+*{ 
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+     
+}
+@font-face {
+     font-family:'idroid' ;
+     src: url(idroid.otf);
+}
+body{
+
+     background-color: #2bb458;
+}
+.conteudo{
+
+     background-color: white;
+}
+.titulo_cabecalho{
+     color: white;
+}
+.cabecalho{
+     background: linear-gradient(to top, #1a5c38, #3fa06a);
+     font-family: Arial, Helvetica, sans-serif;
+     color: #e3ece6;
+     text-align: center;
+     margin: 0px;
+}
+.cabecalho p {
+     text-align: center;
+     padding: 10px;
+     margin: 10px;
+     font-size: 14px;
+     
+}
+.titulo_principal{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 30px;
+
+     color: white;
+}
+h1{
+     font-family: 'idroid';
+     font-size: 26px;
+     padding-left: 20px;
+     color: #18663b;
+     margin: 0px;
+}
+.titulodegrad h1{
+     background-image: linear-gradient(to right, #c8ecd7);
+}
+.cabecalho h1,p{
+     padding: 20px;
+     
+}
+.navegacao{
+  display:  flex;           /* deixa os links lado a lado */
+  gap: 20px;               /* espaço entre os links */
+  background-color: #1a5c38; /* cor de fundo da barra */
+  padding: 10px;
+}
+p{
+     text-align: justify;
+}
+.a{
+       float: left;
+}
+.navegacao a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  position: relative; /* IMPORTANTE para o ::after funcionar */
+  padding: 5px 0;     /* Espaço para o underline não grudar no texto */
+}
+.navegacao a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #f5c518; /* Cor do underline */
+  transition: width 0.3s ease;
+}
+.navegacao a:hover::after {
+  width: 100%;
+}
+ 
+.conteudo {
+    background-color: white;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+.foto{
+     width:600px;
+}
+.names{
+     color:#118f49;
+     font-size:20px;
+     font-style:unset;
+     text-decoration: none;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.names:hover{
+     
+     color: #03A64A;
+     transition: 0.4s;
+     transform: scale(1.6);  
+     cursor: pointer; 
+}
+.bugdroid{
+   padding-left: 150px;
+}
+.informacao h3{
+     background-color: #03A64A;
+     color: white;
+     padding: 10px;
+     border-top: 4px;
+     
+}
+.informacao {
+     margin: 5px;
+     background-color: #c5ebd6;
+     border-radius: 4px;
+}
+.conteudo_2{
+   text-align: center;
+   background: #1a5c38;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.footer{
+      background: #1a5c38;
+      color: white;
+      text-align: center;
+}
+span{
+     color: #1a5c38;
+}
